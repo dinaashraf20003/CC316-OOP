@@ -1,0 +1,15 @@
+Q8) What are the benefits of data field encapsulation?
+Ans: Protecting and hiding data,easy to reuse and adapt to new requirements and adds flexibility to set variables to read or write only.
+
+Q9) What is wrong in the following code?
+
+public class Test {
+	private int id;
+	public void m1() {
+		this.id = 45;
+	}
+	public void m2() {
+		Test.id = 45;
+	}
+}
+Ans: In the second constructor id is set as static instance variable while it's not should be "this.id".
