@@ -1,0 +1,20 @@
+Q6) What is the output of running the class C in (a)? What problem arises in compiling
+the program in (b)?
+Ans: a) A's no-arg constructor is invoked.
+     b) The super constructor requires an argument and it's not passed by either sub classes b and c.
+
+Q7) Identify the problems in the following code:
+Ans: ln5) radius = radius => this.radius= radius
+     ln20) constructor should be public
+     ln21) Circle(radius) => super(radius)
+     ln22) length = length => this.length = length
+     ln23) return getArea()*length => return super.getArea()*length
+     
+Q8) If a method in a subclass has the same signature as a method in its superclass
+with the same return type, is the method overridden or overloaded?
+Ans: overridden.
+
+Q9) If a method in a subclass has the same signature as a method in its superclass
+with a different return type, will this be a problem?
+Ans: Yes.
+
