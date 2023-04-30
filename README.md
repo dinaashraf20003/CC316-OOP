@@ -1,2 +1,2 @@
-# CC319-OOP
-CC319 Java OOP Course assignments and projects.
+# CC316-OOP
+CC316 Java OOP Course assignments and projects.
